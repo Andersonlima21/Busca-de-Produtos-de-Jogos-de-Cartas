@@ -1,0 +1,80 @@
+/* estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* estilos da tabela de produtos */
+  .tabela-produto {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .tabela-produto tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabela-produto td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .tabela-produto td:first-child {
+    font-weight: bold;
+    width: 120px;
+  }
+  
+  .tabela-produto td:nth-child(2) {
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .tabela-produto td:last-child {
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .tabela-produto td:last-child.unavailable {
+    background-color: #f44336;
+  }
+  
+  .tabela-produto td:last-child.available {
+    background-color: #4CAF50;
+  }
+  
